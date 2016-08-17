@@ -1,24 +1,5 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://blocitoff-danielkrice.c9users.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+##Blocitoff: a self-destructing to-do list
+  
+  Blocitoff is my second Rails project at [Bloc](http://bloc.io). It is intended to allow users to create a free account, sign in, and make to-do lists that clear items out for you after a week so they don't get too cluttered!
+  
+  Right now I'm just getting started on the controllers and views of the site. Users can now log in and reset their password via their email through the Devise gem, and there are views for the Home page, and the To-Do List (though you can only access the To-Do List view by creating an account).
