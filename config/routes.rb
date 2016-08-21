@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   
   get 'users/show'
   
-  resources :items, only: [:create]
+  resources :items, only: [:create, :destroy]
 
   devise_for :users
 
