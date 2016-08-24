@@ -1,6 +1,6 @@
 ##Blocitoff: a self-destructing to-do list
 
-  ![Blocipedia pic](https://github.com/danrice92/blocitoff/blob/master/lib/assets/blocipedia.png)
+  ![Blocipedia pic](https://github.com/danrice92/blocitoff/blob/master/lib/assets/blocitoff.png?raw=true)
   
   Blocitoff is my second Rails project at [Bloc](http://bloc.io) after [Blocipedia](https://github.com/danrice92/blocipedia). It allows users to create a free account, sign in, and make to-do lists that clear items out for you after a week so they don't get too cluttered!
   
