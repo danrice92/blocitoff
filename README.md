@@ -1,5 +1,16 @@
 ##Blocitoff: a self-destructing to-do list
+
+  ![Blocipedia pic](https://github.com/danrice92/blocitoff/blob/master/lib/assets/blocipedia.png)
   
-  Blocitoff is my second Rails project at [Bloc](http://bloc.io). It is intended to allow users to create a free account, sign in, and make to-do lists that clear items out for you after a week so they don't get too cluttered!
+  Blocitoff is my second Rails project at [Bloc](http://bloc.io) after [Blocipedia](https://github.com/danrice92/blocipedia). It allows users to create a free account, sign in, and make to-do lists that clear items out for you after a week so they don't get too cluttered!
   
-  Right now I'm just getting started on the controllers and views of the site. Users can now log in and reset their password via their email through the Devise gem, and there are views for the Home page, and the To-Do List (though you can only access the To-Do List view by creating an account).
+  In Blocitoff, I used a few features similar to the ones I used in Blocipedia, such as the Devise gem for creating users and Bootstrap to pretty things up. Some new things I learned (or did on my own for the first time in this project) included:
+  
+  * using the faker gem to seed data instead of the random_data file from my versions of Bloccit and Blocipedia
+  * using Ajax to add and delete items off the to-do list without refreshing the page
+  * displaying the time from when the item was created to when it will be deleted (seven days after creation- like the movie *The Ring* but less terrifying)
+  * creating custom rake tasks to delete all to-do items over seven days old
+
+  The app is not live, but I will be posting more about it on my [blog](http://danrice.me).
+  
+  Made with my mentor at [Bloc](http://bloc.io).
