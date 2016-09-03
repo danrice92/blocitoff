@@ -3,3 +3,9 @@
     <%= link_to "", item, method: :delete, remote: true, class: 'glyphicon glyphicon-ok' %>
     <%= "#{distance_of_time_in_words(Time.now, item.created_at + 7.days)} before deletion" %></p>
 <% end %>
+
+<script type="text/javascript">
+     $(document).on("ready page:load", function () {
+        blocmetrics.report("Item Completed");
+      })
+</script>
