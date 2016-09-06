@@ -11,6 +11,6 @@
   * displaying the time from when the item was created to when it will be deleted (seven days after creation- like the movie *The Ring* but less terrifying)
   * creating custom rake tasks to delete all to-do items over seven days old
 
-  The app is not live, but I will be posting more about it on my [blog](http://danrice.me).
+  The app is now live on [Heroku](http://dan-rice-blocitoff.herokuapp.com), but I will be posting more about it on my [blog](http://danrice.me).
   
   Made with my mentor at [Bloc](http://bloc.io).
