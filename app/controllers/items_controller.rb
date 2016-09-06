@@ -5,9 +5,7 @@ class ItemsController < ApplicationController
         @item.user = current_user
         @new_item = Item.new
         
-        if @item.save
-            flash[:notice] = "To-Do List was updated."
-        else
+        unless @item.save
             flash.now[:alert] = "There was an error creating the new to-do item. Please try again later."
         end
         
@@ -19,9 +17,7 @@ class ItemsController < ApplicationController
     
     def destroy
         @item = Item.find(params[:id])
-        if @item.destroy
-            flash[:notice] = "\"#{@item.name}\" was deleted successfully."
-        else
+        unless @item.destroy
             flash.now[:alert] = "There was an error deleting the post."
         end
         
